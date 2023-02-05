@@ -4,6 +4,8 @@ RUN mkdir /app
 
 COPY ./ /app
 
+COPY ./toEncrypt.txt /app
+
 WORKDIR /app
 
 EXPOSE 8080
