@@ -1,95 +1,23 @@
-.
-..
-.env
-.gitignore
-.idea
-HELP.md
-dockerfile
-log4jTP.iml
-mvnw
-mvnw.cmd
-pom.xml
-src
-target
+USERNAME
 
 
-.
-..
-.env
-.gitignore
-dockerfile
-mvnw
-mvnw.cmd
-pom.xml
-src
-target
+USERNAME > user
+PASSWORD > totolabricot
+URL > jdbc:mysql://mariadb:3306/user
 
 
-.
-..
-.env
-.gitignore
-dockerfile
-mvnw
-mvnw.cmd
-pom.xml
-src
-target
+USERNAME > user
+PASSWORD > totolabricot
+URL > jdbc:mysql://mariadb:3306/user
 
 
-.
-..
-.env
-.gitignore
-dockerfile
-mvnw
-mvnw.cmd
-pom.xml
-src
-target
+USERNAME > user
+PASSWORD > totolabricot
+URL > jdbc:mysql://mariadb:3306/user
 
 
-.
-..
-.env
-.gitignore
-dockerfile
-mvnw
-mvnw.cmd
-pom.xml
-src
-target
-
-
-class Test instancie!
-
-
-.
-..
-.env
-.gitignore
-dockerfile
-mvnw
-mvnw.cmd
-pom.xml
-src
-target
-toEncrypt.txt
-
-
-.
-..
-.env
-.gitignore
-dockerfile
-mvnw
-mvnw.cmd
-pom.xml
-src
-target
-toEncrypt.txt
-
-
-class Test instancie!
+USERNAME > user
+PASSWORD > totolabricot
+URL > jdbc:mysql://mariadb:3306/user
 
 
