@@ -24,7 +24,6 @@ server_1 | Running on IP : XXX.XXX
 ```
  L'IP `server_1` sera à mettre dans le lookup plus tard.
 
- a tester
  Si vous ajoutez une classe dans le dossier attacker/java, pensez à relancer vos containers !
 
 ---
