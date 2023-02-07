@@ -14,6 +14,7 @@
 - Le web service de la victime, qui contient les fichiers à hasher; 
 
 Pour lancer le projet :
+- Si vous êtes sous vdn, il faut désactiver le proxy pour télécharger les dépendances `unset http_proxy && unset https_proxy`
 - Faite un `make all` pour générer tous les Dockerfile;
 - Ensuite, faite un `docker-compose up` dans le répertoire cloné;
 
